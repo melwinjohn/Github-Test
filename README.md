@@ -7,6 +7,7 @@ A sample project to demonstrate git commit history.
 - Sample feature 1
 - Sample feature 2
 - Basic greeting functionality
+- Mathematical operations (multiply, subtract)
 
 ## Installation
 
