@@ -1,14 +1,15 @@
 {
   "name": "my-project",
-  "version": "1.1.0",
-  "description": "A sample project with enhanced features",
+  "version": "1.2.0",
+  "description": "A sample project with enhanced mathematical features",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "node test.js",
-    "feature": "node feature.js"
+    "feature": "node feature.js",
+    "math": "node math-utils.js"
   },
-  "keywords": ["math", "utilities"],
-  "author": "",
+  "keywords": ["math", "utilities", "calculations"],
+  "author": "Developer",
   "license": "ISC"
 }
