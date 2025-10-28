@@ -1,10 +1,16 @@
 // Feature implementation
 
 function multiply(a, b) {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        throw new Error('Invalid input: multiply requires two numbers');
+    }
     return a * b;
 }
 
 function subtract(a, b) {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        throw new Error('Invalid input: subtract requires two numbers');
+    }
     return a - b;
 }
 

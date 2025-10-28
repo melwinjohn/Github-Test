@@ -1,7 +1,9 @@
 // Additional utility functions
-const { multiply, subtract } = require('./feature');
 
 function divide(a, b) {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        throw new Error('Invalid input: divide requires two numbers');
+    }
     if (b === 0) {
         throw new Error('Division by zero is not allowed');
     }
@@ -9,10 +11,16 @@ function divide(a, b) {
 }
 
 function power(a, b) {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        throw new Error('Invalid input: power requires two numbers');
+    }
     return Math.pow(a, b);
 }
 
 function factorial(n) {
+    if (typeof n !== 'number') {
+        throw new Error('Invalid input: factorial requires a number');
+    }
     if (n < 0) {
         throw new Error('Factorial is not defined for negative numbers');
     }
