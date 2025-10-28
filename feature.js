@@ -1,5 +1,4 @@
 // Feature implementation
-const { add } = require('./index');
 
 function multiply(a, b) {
     return a * b;
